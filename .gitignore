@@ -5,14 +5,7 @@ env/
 venv/
 ENV/
 env.bak/
-venv.bak/
 
-# PyTorch Checkpoints
-checkpoints/
-*.pth
-*.pt
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
