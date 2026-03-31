@@ -1,0 +1,37 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch Checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets and Large Files
+data/
+*.npy
+*.segy
+*.sgy
+
+# Outputs and Predictions
+outputs/
+*.png
+
+# Temporary analysis scripts
+analyze_batch.py
+batch_predict_faults.py
+count_faults.py
+find_max_faults.py
+global_fault_search.py
+inspect_mask.py
+list_fault_slices.py
